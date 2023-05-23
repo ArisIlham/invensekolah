@@ -9,7 +9,7 @@
                         <div class="text-center">
                             <h1 class="h4 text-gray-900 mb-4">Tambah Barang</h1>
                         </div>
-                        <form class="user" action="<?php echo base_url() . "welcome/prosestambahsarpras" ?>">
+                        <form class="user" action="<?php echo base_url() . "welcome/prosestambahsarpras" ?>" enctype="multipart/form-data" method="post">
                             <div class="form-group">
                                 <input type="text" class="form-control form-control-user" name="nama_barang" value="" placeholder="Nama Barang">
                             </div>
@@ -30,9 +30,9 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <input type="file" id="gmb_barang" name="gmb_barang">
+                                <input type="file" name="fotopost">
                             </div>
-                            <button type="submit" class="btn btn-primary btn-user btn-block">
+                            <button type="submit" value="Submit" class="btn btn-primary btn-user btn-block">
                                 Register Account
                             </button>
                             <hr>

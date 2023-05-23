@@ -36,7 +36,7 @@
                                 <td><?php echo $b->no_barang ?></td>
                                 <td><?php echo $b->jml_barang ?></td>
                                 <td><?php echo $b->st_barang ?></td>
-                                <td><Img Style="Width: 200px" Src="<?Php echo $b->gmb_barang; ?>"></td>
+                                <td><Img style="width: 100px;" Src="<?= base_url("upload/") . $b->gmb_barang; ?>"></td>
                             </tr>
                         <?php } ?>
 

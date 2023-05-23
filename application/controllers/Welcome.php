@@ -53,24 +53,42 @@ class Welcome extends CI_Controller
 		$no_barang = $this->input->post('no_barang');
 		$jml_barang = $this->input->post('jml_barang');
 		$st_barang = $this->input->post('st_barang');
-		$gmb_barang = $_FILES["gmb_barang"]["Tmp_name"];
 
-		$Path = "upload/";
-		$ImagePath = $Path . $nama_barang . "_logoku.png";
-		Move_uploaded_file($gmb_barang, $ImagePath);
+		$config['upload_path'] = './upload/';
+		$config['allowed_types'] = 'jpg|png|jpeg|gif';
+		$config['max_size'] = '2048';  //2MB max
+		$config['max_width'] = '4480'; // pixel
+		$config['max_height'] = '4480'; // pixel
+		$config['file_name'] = $_FILES['fotopost']['name'];
+
+		// $Path = "upload/";
+		// $ImagePath = $Path . $nama_barang . "_logoku.png";
+		// Move_uploaded_file($gmb_barang, $ImagePath);
 
 		// $config['upload_path']          = './upload/';
 		// $config['allowed_types']        = 'gif|jpg|png|jpeg';
 		// $config['max_size']     		= '2048';
+		$this->upload->initialize($config);
+		if (!empty($_FILES['fotopost']['name'])) {
+			if ($this->upload->do_upload('fotopost')) {
+				$gmb_barang = $this->upload->data();
+				$data = array(
+					'nama_barang' => $nama_barang,
+					'no_barang' => $no_barang,
+					'jml_barang' => $jml_barang,
+					'st_barang' => $st_barang,
+					'gmb_barang' =>  $gmb_barang['file_name'],
+				);
+				$this->M_admin->insertsapras($data);
+				redirect('');
+			} else {
+				die("gagal upload");
+			}
+		} else {
+			echo "tidak masuk";
+		}
 
-		// $this->load->library('upload', $config);
-		$DataArr = array(
-			'nama_barang' => $nama_barang,
-			'no_barang' => $no_barang,
-			'jml_barang' => $jml_barang,
-			'st_barang' => $st_barang,
-			'gmb_barang' =>  Base_url() . $ImagePath,
-		);
+
 		// if (!empty($_FILES["gmb_barang"])) {
 		// 	$this->upload->do_upload('gmb_barang');
 		// 	$data_gmb = $this->upload->data();
@@ -84,10 +102,10 @@ class Welcome extends CI_Controller
 		// $this->db->set('st_barang', $st_barang);
 		// $this->db->insert('barang');
 
-		echo "<Pre>";
-		Print_r($DataArr);
-		echo "<Pre>";
-		$this->M_admin->insertsapras($DataArr);
-		Redirect('welcome/saspras', 'Refresh');
+		// echo "<Pre>";
+		// Print_r($DataArr);
+		// echo "<Pre>";
+		// $this->M_admin->insertsapras($DataArr);
+		// Redirect('welcome/saspras', 'Refresh');
 	}
 }

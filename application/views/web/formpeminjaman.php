@@ -14,65 +14,39 @@
                 </nav>
                 <!-- End of Topbar -->
                 <div class="container-fluid">
-
+                    <form action="<?= base_url() ?>peminjaman/formpeminjaman" method="get" class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" name="cari" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit" value="cari">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                     <!-- Content Row -->
                     <div class="row">
                         <!-- Fade In Utility -->
                         <div class="col-lg-12">
                             <div class="card position-relative">
                                 <div class="row">
-
-                                    <div class="col-md-4 col-sm-12 mb-3">
-                                        <div class="card">
-                                            <img src="<?php echo base_url('/asset/gambar/'); ?>logo_yadika.png" class="card-img-top" alt="...">
-
-                                            <div class="card-body">
-                                                <div class="card-title">
-                                                    <h4>Tutorial Bootstrap 4 bagian 1</h4>
+                                    <?php foreach ($barang as $b) : ?>
+                                        <div class="col-md-3 col-sm-6 mb-3">
+                                            <div class="card">
+                                                <img src="<?= base_url() ?>upload/<?= $b->gmb_barang ?>" class="card-img-top" alt="..." style="width: 50% auto;">
+                                                <div class="card-body">
+                                                    <div class="card-title">
+                                                        <h4><?php echo $b->nama_barang ?></h4>
+                                                    </div>
+                                                    status: <?php echo $b->st_barang ?>
                                                 </div>
-                                                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-                                            </div>
 
-                                            <div class="card-footer">
-                                                <a href="https://www.malasngoding.com/card-bootstrap-4/" class="card-link">Lihat</a>
+                                                <div class="card-footer">
+                                                    <a href="https://www.malasngoding.com/card-bootstrap-4/" class="card-link">Lihat</a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-
-                                    <div class="col-md-4 col-sm-6 mb-3">
-                                        <div class="card">
-                                            <img src="<?php echo base_url('/asset/gambar/'); ?>logo_yadika.png" class="card-img-top" alt="...">
-
-                                            <div class="card-body">
-                                                <div class="card-title">
-                                                    <h4>Tutorial Bootstrap 4 bagian 2</h4>
-                                                </div>
-                                                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-                                            </div>
-
-                                            <div class="card-footer">
-                                                <a href="https://www.malasngoding.com/card-bootstrap-4/" class="card-link">Lihat</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 col-sm-6 mb-3">
-                                        <div class="card">
-                                            <img src="<?php echo base_url('/asset/gambar/'); ?>logo_yadika.png" class="card-img-top" alt="...">
-
-                                            <div class="card-body">
-                                                <div class="card-title">
-                                                    <h4>Tutorial Bootstrap 4 bagian 3</h4>
-                                                </div>
-                                                Selamat datang di tutorial bootstrap 4 lengkap dari paling dasar sampai mahir, untuk pemula sampai expert.
-                                            </div>
-
-                                            <div class="card-footer">
-                                                <a href="https://www.malasngoding.com/card-bootstrap-4/" class="card-link">Lihat</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                    <?php endforeach; ?>
                                 </div>
                             </div>
                         </div>
