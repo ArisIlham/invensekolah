@@ -1,0 +1,180 @@
+CRITICAL - 2023-02-09 19:37:41 --> Invalid file: "ruangan/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ruangan/index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('ruangan/index', [], true)
+ 3 APPPATH\Controllers\Ruangan.php(19): view('ruangan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 19:41:54 --> Invalid file: "ruangan/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ruangan/index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('ruangan/index', [], true)
+ 3 APPPATH\Controllers\Ruangan.php(19): view('ruangan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:26:03 --> Undefined array key "NamaRuangan"
+in APPPATH\Views\admin\ruangan\index.php on line 71.
+ 1 APPPATH\Views\admin\ruangan\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NamaRuangan"', 'APPPATH\\Views\\admin\\ruangan\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ruangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/ruangan/index', [], true)
+ 5 APPPATH\Controllers\Ruangan.php(22): view('admin/ruangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:26:06 --> Undefined array key "NamaRuangan"
+in APPPATH\Views\admin\ruangan\index.php on line 71.
+ 1 APPPATH\Views\admin\ruangan\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NamaRuangan"', 'APPPATH\\Views\\admin\\ruangan\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ruangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/ruangan/index', [], true)
+ 5 APPPATH\Controllers\Ruangan.php(22): view('admin/ruangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:30:47 --> Undefined array key "NamaRuangan"
+in APPPATH\Views\admin\ruangan\index.php on line 71.
+ 1 APPPATH\Views\admin\ruangan\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NamaRuangan"', 'APPPATH\\Views\\admin\\ruangan\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ruangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/ruangan/index', [], true)
+ 5 APPPATH\Controllers\Ruangan.php(22): view('admin/ruangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:32:57 --> Undefined array key "NamaRuangan"
+in APPPATH\Views\admin\ruangan\index.php on line 71.
+ 1 APPPATH\Views\admin\ruangan\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NamaRuangan"', 'APPPATH\\Views\\admin\\ruangan\\index.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ruangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/ruangan/index', [], true)
+ 5 APPPATH\Controllers\Ruangan.php(22): view('admin/ruangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:35:04 --> Undefined array key "NamaRuangan"
+in APPPATH\Views\admin\ruangan\index.php on line 69.
+ 1 APPPATH\Views\admin\ruangan\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NamaRuangan"', 'APPPATH\\Views\\admin\\ruangan\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ruangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/ruangan/index', [], true)
+ 5 APPPATH\Controllers\Ruangan.php(22): view('admin/ruangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:35:06 --> Undefined array key "NamaRuangan"
+in APPPATH\Views\admin\ruangan\index.php on line 69.
+ 1 APPPATH\Views\admin\ruangan\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NamaRuangan"', 'APPPATH\\Views\\admin\\ruangan\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ruangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/ruangan/index', [], true)
+ 5 APPPATH\Controllers\Ruangan.php(22): view('admin/ruangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:35:08 --> Undefined array key "NamaRuangan"
+in APPPATH\Views\admin\ruangan\index.php on line 69.
+ 1 APPPATH\Views\admin\ruangan\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NamaRuangan"', 'APPPATH\\Views\\admin\\ruangan\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ruangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/ruangan/index', [], true)
+ 5 APPPATH\Controllers\Ruangan.php(22): view('admin/ruangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:35:20 --> Undefined array key "NamaRuangan"
+in APPPATH\Views\admin\ruangan\index.php on line 69.
+ 1 APPPATH\Views\admin\ruangan\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NamaRuangan"', 'APPPATH\\Views\\admin\\ruangan\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ruangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/ruangan/index', [], true)
+ 5 APPPATH\Controllers\Ruangan.php(22): view('admin/ruangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:37:25 --> Undefined variable $data
+in APPPATH\Controllers\Ruangan.php on line 22.
+ 1 APPPATH\Controllers\Ruangan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Ruangan.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:37:27 --> Undefined variable $data
+in APPPATH\Controllers\Ruangan.php on line 22.
+ 1 APPPATH\Controllers\Ruangan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Ruangan.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:39:32 --> Undefined variable $data
+in APPPATH\Controllers\Ruangan.php on line 22.
+ 1 APPPATH\Controllers\Ruangan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Ruangan.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:43:03 --> Undefined variable $data
+in APPPATH\Controllers\Ruangan.php on line 22.
+ 1 APPPATH\Controllers\Ruangan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Ruangan.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:43:30 --> Undefined variable $data
+in APPPATH\Controllers\Ruangan.php on line 22.
+ 1 APPPATH\Controllers\Ruangan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Ruangan.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:43:32 --> Undefined variable $data
+in APPPATH\Controllers\Ruangan.php on line 22.
+ 1 APPPATH\Controllers\Ruangan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Ruangan.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:43:34 --> Undefined variable $data
+in APPPATH\Controllers\Ruangan.php on line 22.
+ 1 APPPATH\Controllers\Ruangan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Ruangan.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:43:43 --> Undefined variable $data
+in APPPATH\Controllers\Ruangan.php on line 22.
+ 1 APPPATH\Controllers\Ruangan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Ruangan.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:46:10 --> Undefined variable $data
+in APPPATH\Controllers\Ruangan.php on line 22.
+ 1 APPPATH\Controllers\Ruangan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Ruangan.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 20:48:19 --> Undefined array key "NamaRuangan"
+in APPPATH\Views\admin\ruangan\index.php on line 69.
+ 1 APPPATH\Views\admin\ruangan\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NamaRuangan"', 'APPPATH\\Views\\admin\\ruangan\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\ruangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('admin/ruangan/index', [], true)
+ 5 APPPATH\Controllers\Ruangan.php(22): view('admin/ruangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ruangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
